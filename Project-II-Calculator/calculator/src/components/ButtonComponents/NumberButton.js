@@ -1,7 +1,7 @@
 import React from 'react';
 import './Button.css';
 
-const NumberButton = () => {
+const NumberButton = props => {
   return (
     <button className={`number-button ${props.bgColor}`}>{props.text}</button>
   );
